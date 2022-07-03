@@ -1,0 +1,47 @@
+
+.footer{
+    margin: 0;
+    padding: 0;
+    background-color: $primary;
+    opacity: 1;
+    width: 1200px;
+    display: grid;
+    height: 406px;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr 4fr;
+    color: $white;
+    section h3{
+        color: $orange;
+        font-size: 18px;            
+    }
+    section p{
+        padding-bottom: 12px;
+    }
+    
+}
+
+.footer_title{
+    text-align: center;   
+    padding-top: 33px;
+    font-size: 20px;
+    letter-spacing: 0px;
+}
+
+.footer_img{
+    text-align: center;
+}
+
+.footer_section{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 20px;
+}
+
+.footer_img--logo{
+    padding: 10px 10px;
+    width: 30px;
+    
+    
+    
+}

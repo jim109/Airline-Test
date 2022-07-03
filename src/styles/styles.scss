@@ -1,0 +1,13 @@
+//Importancion fuente principal del proyecto
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Roboto:wght@300;400;700&display=swap');
+
+//Archivos base con las configuraciones globales del proyecto
+@import './base/settings'; 
+@import './base/base';
+
+//Components
+@import './components/headermain';
+@import './components/heromain';
+@import './components/footermenu';
+@import './components/cardoffers';
+

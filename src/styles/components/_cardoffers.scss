@@ -1,0 +1,42 @@
+
+//cardOffers
+
+.cardmain{
+    border-radius: 16px;   
+    border: 1px solid black;    
+    margin: 15px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 233px;
+    height: 207px;
+}
+
+.cardmain_img{
+    width: 233px;
+    height: 207px;
+    border-radius: 15px;
+        
+}
+
+.cardmain_text{
+    position: absolute;
+    top: 123px;    
+    height: 85px;
+    width: 100%;
+    background-color: #000000AD;
+    border-radius: 0px 0px 10px 10px ;
+    color: $white;
+        
+}
+
+.cardmain:hover{
+    border: 2px solid $orange;
+}
+
+.cardmain_text:hover{
+    height: 100%;
+    top: 0px;
+}
+
+

@@ -1,0 +1,76 @@
+
+.main{
+    background: transparent url("../../../public/assets//plane.jpg") 0% 0% no-repeat padding-box;
+    width: 1200px;
+    height: 475px;
+    background-size: cover;
+    color: $white;
+        h1{
+            font-size: 36px;
+            font-weight: bold;
+            padding-left: 63px;
+        }
+}
+
+.main_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    padding-top: 16px;
+    padding-right: 63px;
+}
+
+.main_header--nav{
+    
+    
+    ul li{        
+        list-style: none;
+        padding-left: 22px;
+     }
+     ul li a{
+        text-decoration: none;
+        color: $white;
+     }
+     ul li a:hover{
+        text-decoration: underline;
+     }
+
+
+}
+
+.main_header--nav--menu{
+    display: flex;
+   
+}
+.arrow{
+    width: 14px;
+    
+}
+
+.main_title{
+    padding-left: 64px;
+    padding-top: 102px;
+        h2{
+            font-size: 30px;
+            padding-bottom: 8px;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 300;
+        }
+
+}
+
+.main_title--button{
+    width: 223px;
+    height: 50px;
+    border-radius: 30px;
+    border: 0;  
+    background-color: $orange; 
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 49px;
+    color: $white;
+}
