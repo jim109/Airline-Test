@@ -1,0 +1,53 @@
+
+
+.menucards{
+    width: 233px;
+    height: 327px;    
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px #00000029;    
+    
+     h3{
+        padding-top: 29px;
+        padding-bottom: 11px;
+        text-align: center;
+     }
+     ul{
+        padding: 0px;
+     }
+     ul li{
+        padding: 15px 0px 15px 0px;
+        list-style: none;        
+        border-bottom: 1px solid #00000029;
+        padding-left: 54px;
+        
+        
+        
+     }
+     a {
+        text-decoration: none;
+        color: #605F5E;
+     }
+}
+
+.menucards{
+    ul li:nth-child(5){
+        border-bottom: none;
+    }
+    ul li:first{
+        width: 0; 
+        height: 0; 
+        border-left: 10px solid #247BA0;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+    }
+}
+
+.triangulo{
+        width: 0; 
+        height: 0; 
+        border-left: 10px solid #247BA0;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+}
+
+

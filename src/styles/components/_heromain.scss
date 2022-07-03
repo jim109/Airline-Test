@@ -1,16 +1,68 @@
 
 .heromain{
+    width: 100%;
+    padding-left: 140px;
+    /* padding-right: 63px; */
     color: $text-main;
     padding-top: 66px;
+    display: grid;
+    grid-template-columns: [x0]830px   [x1]233px;
+    grid-template-rows: [y0]60px [y1]270px [y2]60px;
+    padding-bottom: 65px;
 }
 
-.heromain_nav{
-    color: $text-main;
-}
 
 .heromain_cards{
     width: 100%;
     display: flex;
 }
 
+.heromain_text{
+    text-align: center;
+    
+}
+.heromain_text--destin:nth-child(2){
+    border-top: 1px solid black;
+    max-width: 200px;
+   
+}
+
+.g1 {
+    grid-row:  y0;
+    grid-column-start: x0;
+    grid-column-end: x0;
+    
+    
+}
+
+.g2{
+    grid-row:  y1;
+    grid-column-start: x0;
+    grid-column-end: x1;
+
+}
+
+.g3{
+    grid-column: x1;
+    grid-row-start: y2;
+    grid-row-end: y2;
+    
+}
+
+.g4 {
+    grid-row:  y2;
+    grid-column-start: x0;
+    grid-column-end: x0;
+}
+
+.g5{
+    grid-row:  y0;
+    grid-column-start: x1;
+    grid-column-end: x1;
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 200px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}
 
