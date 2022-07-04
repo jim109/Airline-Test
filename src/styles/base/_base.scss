@@ -12,29 +12,10 @@ html, body{
 }
 
 .mainApp{
-    width: 1200px;
+    width: 100%;
     display: grid;
     align-items: center;
     justify-content: center;
     justify-items: center;
 }
 
-.mt-1{
-    margin-top: 5px;
-}
-
-.mt-5{
-    margin-top: 20px;
-}
-
-.mb-1{
-    margin-bottom: 5px;
-}
-
-.mb-5{
-    margin-bottom: 20px;
-}
-
-.pointer{
-    cursor: pointer;
-}

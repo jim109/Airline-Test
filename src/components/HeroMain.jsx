@@ -21,4 +21,4 @@ export const HeroMain = () =>{
             </div>            
         </section>
     )
-}
+} 
