@@ -17,7 +17,7 @@ export const FooterMain = () =>{
                 <section>
                     <h3>Explore</h3>
                     <p>Home</p>
-                    <p>Destinations</p>
+                    <p>Destinations</p> 
                     <p>About</p>
                 </section>
                 <section>

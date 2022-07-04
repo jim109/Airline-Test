@@ -7,7 +7,7 @@ export const HeaderMain = () =>{
             <header className="main_header">
                 <h1>AIRLINE</h1>
                 <nav className="main_header--nav">
-                    <ul>
+                    <ul className="main_header--nav---idioms">
                         <li>en<img src="/assets/arrow-down.svg" alt="imagen" className="arrow"/></li>
                     </ul>
                     <ul className="main_header--nav--menu">
@@ -16,7 +16,6 @@ export const HeaderMain = () =>{
                         <li><a href="/">Destinations</a></li>
                         <li><a href="/">Contacts</a></li>
                     </ul>
-                    
                 </nav>  
             </header>
             <div className="main_title">

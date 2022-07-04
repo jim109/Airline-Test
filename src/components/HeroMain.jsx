@@ -11,7 +11,7 @@ export const HeroMain = () =>{
             <div className="heromain_cards g2">
                 <CardOffers imgOffers={ "./assets/moscow.jpg"} city={"Moscow"} price={"$600,86"}/>
                 <CardOffers imgOffers={ "./assets/puerto-rico.jpg"} city={"Puerto Rico"} price={"$600,86"}/>
-                <CardOffers imgOffers={ "./assets/honduras.jpg"} city={""} price={"$600,86"}/>
+                <CardOffers imgOffers={ "./assets/honduras.jpg"} city={"Honduras"} price={"$600,86"}/>
             </div>      
             
             <MenuCards className="g3" />
