@@ -1,14 +1,21 @@
+import { MenuFloat } from "./MenuFloat"
 
 
 export const HeaderMain = () =>{
+
+    
 
     return(
         <main className="main">            
             <header className="main_header">
                 <h1>AIRLINE</h1>
                 <nav className="main_header--nav">
-                    <ul className="main_header--nav---idioms">
+                    <ul className="main_header--nav---idioms isOpen">
                         <li>en<img src="/assets/arrow-down.svg" alt="imagen" className="arrow"/></li>
+                        <div className="main_header--menufloat">
+                            <MenuFloat />
+                        </div>
+                        
                     </ul>
                     <ul className="main_header--nav--menu">
                         <li><a href="/">Home</a></li>
@@ -25,5 +32,5 @@ export const HeaderMain = () =>{
             </div>        
             
         </main>
-    )
+    ) 
 }

@@ -81,3 +81,102 @@
     text-align: right;
     cursor: pointer;
 }
+
+@media (max-width: 1024px) {
+    .main{
+        width: 1024px; 
+    }
+
+}
+
+@media (max-width: 768px) {
+    .main{
+        width: 768px; 
+    }
+
+
+}
+
+@media (max-width: 425px) {
+    
+.main{
+    
+    width: 425px;
+    height: 475px;
+    
+        h1{
+            font-size: 26px;
+            font-weight: bold;
+            padding-left: 33px;
+        }
+}
+
+.main_header{
+   
+    padding-top: 6px;
+    padding-right: 13px;
+}
+
+.main_header--nav{
+    
+    
+    ul li{        
+        list-style: none;
+        padding-left: 12px;
+        font-size: 10px;
+     }
+     ul li a{
+        text-decoration: none;
+        color: $white;
+     }
+     ul li a:hover{
+        text-decoration: underline;
+     }
+
+
+}
+
+.arrow{
+    width: 10px;
+    padding-left: 4px;
+    
+}
+
+.main_title{
+    padding-left: 64px;
+    padding-top: 102px;
+        h2{
+            font-size: 30px;
+            padding-bottom: 8px;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 300;
+        }
+
+}
+}
+
+
+//menufloat
+.menufloat{
+    display: none;   
+    width: 145px;
+    height: 109px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 0;
+    margin: 0;
+        .menufloat_a{
+            padding: 10px 8px 4px 8px;
+            display: flex;
+            color: #247BA0;
+            text-align: center;
+            justify-items: center;
+            font-size: 16px;
+        }
+        ul{
+            padding: 0;
+        }
+}
+
